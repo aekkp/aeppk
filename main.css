@@ -1,0 +1,270 @@
+*,*:before,*:after {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+/*font-family: 'Roboto', ;
+font-family: 'Open Sans', ;
+font-family: 'Roboto Condensed', ;
+font-family: 'Roboto Slab', ;*/ 
+header {
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+	z-index: 50;
+}
+.header_top {
+	background-color: #ffffff;
+}
+.container {
+	max-width: 1230px;
+	margin: 0 auto;
+	padding: 0px 15px;
+}
+.header_top_row {
+	padding: 20px 0px 20px 0px;
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+}
+.header_logo {
+	width: 120px;
+	height: 120px;
+}
+.header_logo img {
+	max-width: 100%;
+}
+.burger_menu {
+	display: none;
+}
+.header_contact {
+	display: flex;
+}
+.header_email {
+	display: flex;
+}
+.header_email_img {
+	font-size: 25px;
+	color: #19314B;
+}
+.header_top_h3 h3 {
+	padding-left: 10px;
+	color: #4e4e4e;
+	font-family: 'Open Sans';
+	font-size: 23px;
+	font-weight: 400;
+	line-height: 30px;
+}
+.header_phone {
+	display: flex;
+	margin: 0px 0px 0px 30px;
+}
+.header_phone_img {
+	font-size: 25px;
+	color: #19314B;
+}
+/*nav_list*/
+.nav_nav {
+	background-color: #19314B;
+}
+.nav_menu {
+	display: flex;
+	justify-content: space-around;
+}
+.nav_list {
+	list-style: none;
+	padding: 15px 0px 15px 0px;
+	position: relative;
+}
+.nav_link:hover {
+	border-bottom: 2px solid #ffffff;
+}
+.nav_link {
+	transition: all 0.5s;
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	text-decoration: none;
+	display: block;
+	color: #ffffff;
+	font-family: "Open Sans";
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+	text-transform: uppercase;
+	letter-spacing: 0.49px;
+}
+.arrow {
+	position: absolute;
+	right: -15px;
+	top: 25px;
+	width: 0;
+	height: 0;
+	border-top: 5px solid #fff;
+	border-right: 5px solid transparent;
+	border-left: 5px solid transparent;
+}
+.nav_in_menu {
+	position: absolute;
+	width: 200px;
+	top: 54px;
+	margin: 0px 0px 0px 0px;
+	background-color: #19314B;
+	display: none;
+}
+.header_contact_mobile {
+	display: none;
+}
+.nav_list:hover .nav_in_menu {
+	display: block;
+}
+.nav_in_list {
+	list-style: none;
+	padding: 8px 0px 5px 5px;
+}
+.nav_in_link:hover {
+	border-bottom: 1px solid #ffffff;
+}
+.nav_in_link {
+	transition: all 0.5s;
+	text-decoration: none;
+	color: #ffffff;
+	font-family: "Open Sans";
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 24px;
+	text-transform: uppercase;
+	letter-spacing: 0.49px;
+}
+
+@media (max-width: 1200px) {
+	/*header_top*/
+	.header_top_h3 h3 {
+		font-size: 20px;
+	}
+}
+@media (max-width: 990px) {
+	/*header_top*/
+	.container {
+		max-width: 770px;
+	}
+}
+@media (max-width: 770px) {
+	.container {
+		max-width: none;
+	}
+	.header_top {
+		background-color: #19314B;
+	}
+	.header_top_row {
+		justify-content: space-around;
+		padding: 10px 0px 5px 0px;
+	}
+	.header_logo img{
+		max-width: 80%;
+	}
+	.burger_menu {
+		display: block;
+	}
+	.burger_menu {
+		display: block;
+		top: -5px;
+		position: relative;
+		width: 40px;
+		height: 30px;
+		position: relative;
+		z-index: 3;
+	}
+	.burger_menu span {
+		content: '';
+		position: absolute;
+		width: 100%;
+		height: 16%;
+		background-color: #ffffff;
+		right: 0;
+		top: 13px;
+		transition: 0.4s;
+	}
+	.burger_menu:before,
+	.burger_menu:after {
+		content: '';
+		background-color: #ffffff;
+		position: absolute;
+		width: 100%;
+		height: 5px;
+		right: 0;
+		transition: 0.4s;
+	}
+	.burger_menu:before {
+		top: 0;
+	}
+	.burger_menu:after {
+		bottom: 0;
+	}
+	.burger_menu.active:before {
+		transform: rotate(45deg);
+		top: 13px;
+	}
+	.burger_menu.active:after {
+		transform: rotate(-45deg);
+		bottom: 13px;
+	}
+	.burger_menu.active span {
+		transform: scale(0);
+	}
+	.header_contact {
+		display: none;
+	}
+	/*nav_nav*/
+	.nav_nav {
+		position: fixed;
+		left: -100%;
+		width: 50%;
+		height: 100%;
+		background-color: #19314b;
+		transition: all 0.7s;
+	}
+	.nav_nav.active {
+		left: 0%;
+	}
+	.nav_menu {
+		display: block;
+	}
+	.nav_list {
+		padding: 20px 0px 0px 0px;
+	}
+	.nav_link {
+		text-align: left;
+		color: #ffffff;
+		font-weight: 400;
+		font-size: 20px;
+	}
+	.arrow {
+		display: none;
+	}
+	.nav_list:hover .nav_in_menu {
+		display: none;
+	}
+	.header_contact_mobile {
+		display: block;
+		margin: 150px 0px 0px 0px;
+	}
+	.contact_mobile_email {
+		display: flex;
+	}
+	.header_contact_img {
+		color: #ffffff;
+	}
+	.contact_mobile_h3 h3 {
+		margin: 0px 0px 0px 20px;
+		font-size: 17px;
+		color: #ffffff;
+		font-family: 'Open Sans';
+		font-weight: 400;
+	}
+	.contact_mobile_phone {
+		display: flex;
+	}
+}
