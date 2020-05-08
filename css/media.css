@@ -1,0 +1,257 @@
+@media (max-width: 1230px) {
+	.container {
+		max-width: 990px;
+	}
+	/*header_top*/
+	.header_text {
+		font-size: 20px;
+	}
+	.menu__list>li {
+		margin: 0px 0px 0px 40px;
+	}
+	/*main*/
+	.main__slider-text {
+		font-size: 45px;
+	}
+	/*icon request*/
+	.icon__request {
+		left: 30%
+	}
+}
+@media (max-width: 990px) {
+	.container {
+		max-width: 770px;
+	}
+	/*header top*/
+	.menu__list>li {
+		margin: 0px 0px 0px 30px;
+	}
+	/*main*/
+	.main__slider-text {
+		font-size: 35px;
+	}
+	/*distance*/
+	.top__text {
+		font-size: 32px;
+	}
+	.distance__video {
+		margin: 30px 0px 0px 0px;
+	}
+	/*icon request*/
+	.icon__request {
+		left: 25%
+	}
+}
+@media (max-width: 770px) {
+	.container {
+		max-width: none;
+	}
+	/*header top*/
+	.header_top {
+		background-color: #19314B;
+	}
+	.header_top-row {
+		justify-content: center;
+		padding: 5px 0px 5px 0px;
+	}
+	.header_logo {
+		width: 70px;
+		height: 70px;
+	}
+	.header_logo img{
+		max-width: 100%;
+	}
+	.burger_menu {
+		display: block;
+		left: 35%;
+		top: 5px;
+		position: relative;
+		width: 30px;
+		height: 20px;
+		position: relative;
+		z-index: 3;
+	}
+	.burger_menu span {
+		content: '';
+		position: absolute;
+		width: 100%;
+		height: 16%;
+		background-color: #ffffff;
+		right: 0;
+		top: 8.5px;
+		transition: 0.4s;
+	}
+	.burger_menu:before,
+	.burger_menu:after {
+		content: '';
+		background-color: #ffffff;
+		position: absolute;
+		width: 100%;
+		height: 3px;
+		right: 0;
+		transition: 0.4s;
+	}
+	.burger_menu:before {
+		top: 0;
+	}
+	.burger_menu:after {
+		bottom: 0;
+	}
+	.burger_menu.active:before {
+		transform: rotate(45deg);
+		top: 4.5px;
+	}
+	.burger_menu.active:after {
+		transform: rotate(-45deg);
+		bottom: 13px;
+	}
+	.burger_menu.active span {
+		transform: scale(0);
+	}
+	.header_contact {
+		display: none;
+	}
+	/*nav_nav*/
+	.menu {
+		position: fixed;
+		opacity: 0;
+		visibility: hidden;
+		overflow: auto;
+		width: 100%;
+		height: 100%;
+		background-color: rgba(25, 50, 77, 0.93);
+		transition: all 0.7s;
+		z-index: 50;
+	}
+	.menu.active {
+		opacity: 1;
+		visibility: visible;
+	}
+	.menu__list {
+		display: block;
+		margin: 50px 0px 0px 0px;
+	}
+	.menu__list>li{
+		margin: 0px 0px 20px 0px;
+	}
+	.menu__list > li:first-child {
+		margin: 0px 0px 20px 0px;
+	}
+	.menu__link {
+		font-size: 17px;
+	}
+	.sub-menu__list{
+		position: relative;
+		left: 0;
+		top: 0;
+	}
+	.sub-menu__list>li{
+		background-color: #ffffff;
+		border: 0.1px solid #19314b;
+	}
+	/*main*/
+	.main__screen {
+		margin: 80px 0px 0px 0px;
+	}
+	.main__slider-text {
+		font-size: 32px;
+		line-height: 30px;
+	}
+	/*distance*/
+	.top__text {
+		font-size: 28px;
+	}
+	/*request*/
+	.request__input {
+		padding: 75px 90px;
+	}
+	.request__input input {
+		padding: 10px 10px;
+		margin: 10px 0px 0px 0px;
+		font-size: 15px;
+	}
+	/*footer*/
+	.footer__content {
+		flex-direction: column;
+		padding: 30px 0px 30px 20px;
+	}
+	.footer__logo {
+		margin: 0 auto;
+	}
+	.footer__text {
+		margin: 20px 0px 0px 0px;
+	}
+	.footer_contact {
+		padding: 0px 0px 0px 0px;
+	}
+	/*icon*/ 
+	.fixed__icon {
+		top: 20%;
+	}
+	.fixed__icon-logo {
+		width: 50px;
+		height: 50px;
+	}
+	.fixed__icon-logo img {
+		max-width: 50px;
+	}
+	.icon__request {
+		left: 15%
+	}
+	/*college php*/
+	.college__content {
+		margin: 100px 0px 0px 0px;
+	}
+	.spec__top-text {
+		margin: 100px 0px 20px 0px;
+	}
+}
+@media (max-width: 575px) {
+	.container {
+		max-width: none;
+	}
+	/*nav*/
+	.burger_menu {
+		left: 30%;
+	}
+	/*main*/
+	.main__screen {
+		margin: 80px 0px 0px 0px;
+	}
+	.main__slider-text {
+		font-size: 25px;
+	}
+	/*distance*/
+	.top__text {
+		font-size: 22px;
+	}
+	.top__content {
+		padding: 60px 0px 50px 0px;
+	}
+	.footer__logo {
+		width: 150px;
+		height: 150px;
+	}
+	.footer__logo-text {
+		font-size: 15px;
+	}
+	/*request*/
+	.icon__request {
+		width: 300px;
+		height: 350px;
+	}
+	.request__input {
+		padding: 40px 10px;
+	}
+	.icon__request {
+		left: 5%
+	}
+	.icon__request-input {
+		padding: 80px 10px;
+	}
+	.icon__request-input input {
+		padding: 15px 50px;
+	}
+	.icon__request-btn {
+		padding: 15px 68px
+}
