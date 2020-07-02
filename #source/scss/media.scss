@@ -1,0 +1,121 @@
+@media (max-width: 1230px) {
+	.menu {
+		margin: 0px 0px 0px 50px;
+	}
+	.menu__link {
+		padding: 0px 20px 38px 20px;
+	}
+}
+@media (max-width: 990px) {
+	.menu {
+		margin: 0px 0px 0px 0px;
+	}
+	.menu__link {
+		padding: 0px 15px 38px 15px;
+	}
+	.header__soc i {
+		margin: 0px 0px 0px 10px;
+	}
+}
+@media (max-width: 767px) {
+	.menu {
+		display: none;
+	}
+	.nav__menu2 {
+		position: fixed;
+		opacity: 0;
+		display: block;
+		visibility: hidden;
+		overflow: auto;
+		width: 100%;
+		height: 100%;
+		background-color:rgba(17, 116, 158, 1);
+		transition: all 0.5s;
+		z-index: 50;
+		margin: 0px 0px 0px 0px;
+		text-align: center;
+	}
+	.nav__menu2.active {
+		opacity: 1;
+		visibility: visible;
+	}
+	.header__soc i {
+		margin: 0px 0px 0px 45px;
+		font-size: 25px;
+	}
+	.header__soc i:first-child {
+		margin: 0px 0px 0px 0px;
+	}
+	.burger_menu {
+		display: block;
+		top: 0px;
+		position: relative;
+		width: 30px;
+		height: 20px;
+		position: relative;
+		z-index: 3;
+	}
+	.burger_menu span {
+		content: '';
+		position: absolute;
+		width: 100%;
+		height: 19%;
+		background-color: #fff;
+		right: 0;
+		top: 8px;
+		transition: 0.4s;
+	}
+	.burger_menu:before,
+	.burger_menu:after {
+		content: '';
+		background-color: #fff;
+		position: absolute;
+		width: 100%;
+		height: 4px;
+		right: 0;
+		transition: 0.4s;
+	}
+	.burger_menu:before {
+		top: 0;
+	}
+	.burger_menu:after {
+		bottom: 0;
+	}
+	.burger_menu.active:before {
+		transform: rotate(45deg);
+		top: 3px;
+	}
+	.burger_menu.active:after {
+		transform: rotate(-45deg);
+		bottom: 13px;
+	}
+	.burger_menu.active span {
+		transform: scale(0);
+	}
+	.creat_h {
+		font-size: 75px;
+	}
+	.creat_p {
+		font-size: 17px;
+		letter-spacing: 10px;
+	}
+	.creat__down {
+		padding: 200px 0px 23px 0px;
+	}
+}
+@media (max-width: 575px) {
+	.header__soc i {
+		margin: 0px 0px 0px 25px;
+		font-size: 20px;
+	}
+	.header__soc i:first-child {
+		margin: 0px 0px 0px 0px;
+	}
+	.creat_h {
+		font-size: 50px;
+	}
+	.creat_p {
+		font-size: 15px;
+		letter-spacing: 10px;
+	}
+}
