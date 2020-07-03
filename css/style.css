@@ -112,3 +112,73 @@ header {
   padding: 23px;
   color: #f5f5f5;
 }
+
+.we {
+  min-height: 100vh;
+  background-color: #11749e;
+}
+.we__top {
+  text-align: center;
+  padding: 172px 0px 0px 0px;
+  position: relative;
+  color: #ffffff;
+  font-family: Gotham;
+  font-size: 38px;
+  font-weight: 500;
+  line-height: 45.06px;
+  text-transform: uppercase;
+}
+.we__opacity {
+  display: block;
+  top: 25%;
+  left: 39%;
+  position: absolute;
+  opacity: 0.18;
+  color: #ffffff;
+  font-family: "Roboto - Bold Condensed";
+  font-size: 247px;
+  font-weight: 400;
+  line-height: 210.64px;
+  text-transform: uppercase;
+}
+.we__row {
+  padding: 68px 0px 128px 0px;
+  justify-content: space-evenly;
+  display: flex;
+  text-align: center;
+  flex-wrap: wrap;
+}
+.we__content {
+  margin: 20px 0px 0px 0px;
+  max-width: 258px;
+  display: 1 1 auto;
+}
+.we__circle {
+  margin: 0 auto;
+  padding: 50px;
+  width: 133px;
+  height: 133px;
+  background-color: #2e85aa;
+  border-radius: 100%;
+  cursor: pointer;
+}
+.we__circle:hover {
+  background-color: #87CEEB;
+  transition: all 0.4s;
+}
+.we__h {
+  margin: 13px 0px 23px 0px;
+  color: #ffffff;
+  font-family: Gotham;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+.we__p {
+  color: #ffffff;
+  font-family: "Gotham - Book";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+}

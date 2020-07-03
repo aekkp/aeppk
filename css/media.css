@@ -139,4 +139,21 @@
     font-size: 15px;
     letter-spacing: 10px;
   }
+
+  .we__opacity {
+    top: 10%;
+    left: 20%;
+  }
+
+  .we__row {
+    padding: 38px 0px 58px 0px;
+  }
+
+  .we__h {
+    margin: 5px 0px 5px 0px;
+  }
+
+  .we__top {
+    padding: 72px 0px 0px 0px;
+  }
 }
