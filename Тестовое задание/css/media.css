@@ -1,0 +1,375 @@
+@media (max-width: 1230px) {
+  .header__search {
+    width: 308px;
+  }
+  .header__phone {
+    padding: 0px 30px 0px 30px;
+  }
+  .header__number {
+    font-size: 18px;
+  }
+
+  .lang__ru {
+    margin: 0px 0px 0px 5px;
+  }
+
+  .arrow {
+    left: 3px;
+  }
+
+  .menu__link {
+    margin: 0px 0px 0px 40px;
+  }
+}
+@media (max-width: 990px) {
+  .header__search {
+    width: 248px;
+  }
+  .header__phone {
+    padding: 0px 10px 0px 10px;
+  }
+  .header__number {
+    font-size: 13px;
+    margin: 0px 0px 0px 0px;
+  }
+  .header__logo img {
+    max-width: 90%;
+  }
+
+  .lang__ru {
+    font-size: 12px;
+  }
+
+  .menu__link {
+    margin: 0px 0px 0px 20px;
+    font-size: 12px;
+  }
+
+  .globus__h {
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 72px;
+    font-weight: 700;
+  }
+  .globus__p {
+    width: 220px;
+    text-shadow: 0 0 21px rgba(6, 13, 18, 0.63);
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 0px 0px 10px 0px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  }
+  .globus__center {
+    width: 393px;
+  }
+  .globus__center img {
+    max-width: 100%;
+  }
+}
+@media (max-width: 770px) {
+  header {
+    padding: 0px 0px 60px 0px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+  .header__row {
+    padding: 25px 0px 0px 0px;
+  }
+  .header__row2 {
+    display: none;
+  }
+  .header__search {
+    display: none;
+  }
+  .header__phone {
+    padding: 0px 20px 0px 0px;
+  }
+  .header__logo {
+    max-width: 70%;
+  }
+
+  .header {
+    border: 1px solid black;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .burger_menu {
+    position: relative;
+    position: relative;
+    display: block;
+    top: 35px;
+    width: 30px;
+    height: 20px;
+    z-index: 3;
+  }
+
+  .burger_menu span {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 17%;
+    background-color: #4d6a7c;
+    right: 0;
+    top: 8px;
+    transition: 0.3s;
+  }
+
+  .burger_menu:before,
+.burger_menu:after {
+    content: "";
+    background-color: #4d6a7c;
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    right: 0;
+    transition: 0.3s;
+  }
+
+  .burger_menu:before {
+    top: 0;
+  }
+
+  .burger_menu:after {
+    bottom: 0;
+  }
+
+  .burger_menu.active:before {
+    transform: rotate(45deg);
+    top: 3px;
+  }
+
+  .burger_menu.active:after {
+    transform: rotate(-45deg);
+    bottom: 13px;
+  }
+
+  .burger_menu.active span {
+    transform: scale(0);
+  }
+
+  .menu2 {
+    padding: 0px 15px;
+    position: fixed;
+    opacity: 0;
+    display: block;
+    visibility: hidden;
+    overflow: auto;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(77, 106, 124, 0.9);
+    transition: all 0.3s;
+    z-index: 50;
+    margin: 60px 0px 0px 0px;
+  }
+
+  .menu2.active {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .menu__list {
+    display: block;
+    margin: 100px 0px 0px 0px;
+  }
+
+  .menu__list > li {
+    margin: 0px 0px 20px 0px;
+    padding: 5px 0px;
+  }
+
+  .menu__list > li:first-child {
+    margin: 0px 0px 20px 0px;
+  }
+
+  .menu__link {
+    font-size: 20px;
+    color: #fff;
+    text-shadow: 2px 2px black;
+    font-weight: 400;
+    margin: 0px 0px 0px 0px;
+  }
+
+  .arrow {
+    position: absolute;
+    left: 90%;
+    top: 15px;
+    width: 0;
+    height: 0;
+    border-top: 5px solid #fff;
+    border-right: 5px solid transparent;
+    border-left: 5px solid transparent;
+    cursor: pointer;
+  }
+
+  .main {
+    margin: 150px 0px 0px 0px;
+  }
+  .main__row {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  .main__img {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    background-image: url(../img/2-layers.png);
+    width: 420px;
+    height: 435px;
+  }
+  .main__btn {
+    width: 313px;
+    height: 63px;
+    margin: 40px auto;
+  }
+
+  .business__row {
+    margin: 0px 0px 20px 0px;
+  }
+  .business__1 {
+    text-align: center;
+    margin: 40px 0px 0px 0px;
+    display: block;
+  }
+  .business__text {
+    margin: 0px 0px 0px 0px;
+    width: auto;
+  }
+  .business__h {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 33.27px;
+    letter-spacing: 1.16px;
+  }
+  .business__p {
+    color: #000000;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+  }
+
+  .globus__h {
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 42px;
+    font-weight: 700;
+  }
+  .globus__p {
+    width: 150px;
+    text-shadow: 0 0 21px rgba(6, 13, 18, 0.63);
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 0px 0px 10px 0px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  }
+  .globus__center {
+    width: 353px;
+  }
+  .globus__center img {
+    max-width: 100%;
+  }
+}
+@media (max-width: 575px) {
+  .header__row {
+    display: none;
+  }
+  .header__row2 {
+    display: block;
+    text-align: center;
+  }
+  .header__logo img {
+    position: absolute;
+    top: 5px;
+    max-width: 60%;
+  }
+  .header__phone {
+    padding: 30px 0px 10px 0px;
+  }
+  .header__number {
+    color: #fff;
+    margin: 0px 0px 0px 10px;
+  }
+
+  .lang__ru {
+    color: #fff;
+  }
+
+  .burger_menu {
+    top: 35px;
+  }
+
+  .main {
+    margin: 90px 0px 0px 0px;
+  }
+  .main__img {
+    width: 370px;
+    height: 335px;
+  }
+  .main__h {
+    font-size: 44px;
+    line-height: 53.11px;
+  }
+  .main__p {
+    font-size: 22px;
+    margin: 15px 0px 30px 0px;
+    line-height: 30.11px;
+  }
+  .main__btn {
+    width: 263px;
+    height: 53px;
+    padding: 20px 0px 0px 30px;
+  }
+
+  .company__h {
+    padding: 40px 0px 15px 0px;
+    font-size: 36px;
+    line-height: 37px;
+  }
+  .company__p {
+    line-height: 20px;
+    font-size: 14px;
+  }
+  .company__p span {
+    line-height: 20px;
+  }
+
+  .globus__h {
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 700;
+  }
+  .globus__p {
+    width: 150px;
+    text-shadow: 0 0 21px rgba(6, 13, 18, 0.63);
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 0px 0px 10px 0px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  }
+  .globus__center {
+    display: none;
+    width: 253px;
+  }
+  .globus__center img {
+    max-width: 100%;
+  }
+  .globus__center2 {
+    margin: 0 auto;
+    width: 253px;
+    display: block;
+  }
+  .globus__center2 img {
+    max-width: 100%;
+  }
+}
