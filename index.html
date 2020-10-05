@@ -2,389 +2,536 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="format-detection" content="telephone=no">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel="stylesheet" type="text/css" href="css/nole.css">
-	<link rel="stylesheet" type="text/css" href="css/media.css">
-	<link href="css/all.css" rel="stylesheet"> 
-	<link href="https://fonts.googleapis.com/css2?family=Cabin:ital@0;1&family=Lato&family=Roboto&display=swap" rel="stylesheet">
-	<title>Excel</title>
+	<meta name="viewport" content="width=device-width">
+	<title>Plus</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<link href="https://fonts.googleapis.com/css?family=Domine|Lato:300|Montserrat:400,700&display=swap" rel="stylesheet">
+	<link href="css/all.css" rel="stylesheet">
+	<link rel="stylesheet" href="animate.css">
 </head>
 <body>
-	<header>
-		<div class="header__menu">
+	<div class="header_contact">
+		<div class="container">
+			<div class="header_email">
+				<h3>Email : <span>info@consultplus.com</span></h3>
+				<div class="header_border"></div>
+			    <h3>Phone : <span>+91 5685 6664 555</span></h3> 
+			</div>
+		</div>
+	</div>
+	<div class="header">
+		<div class="container">
+			<div class="header_body">
+				<a href="#">
+					<img src="img/logo.png">
+				</a>
+				<div class="header_burger">
+					<span></span>
+				</div>
+				<nav class="header_menu">
+					<ul class="header_list">
+						<li>
+							<a href="#" data-scroll="#home" class="header_link">home</a>
+						</li>
+						<li>
+							<a href="#" data-scroll="#about" class="header_link">about</a>
+						</li>
+						<li>
+							<a href="#" data-scroll="#industry" class="header_link">industry</a>
+						</li>
+						<li>
+							<a href="#" data-scroll="#services" class="header_link">services</a>
+						</li>
+						<li>
+							<a href="#" data-scroll="#pages" class="header_link">
+								pages
+							</a>
+						</li>
+						<li>
+							<a href="#" data-scroll="#contactUs" class="header_link">contact us</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</div>
+	<div class="banner" id="home">
 			<div class="container">
-				<div class="header__row">
-					<div class="header__logo">
-						<img src="img/logo.png">
+				<div class="banner_slick">
+					<div class="banner_content wow slideInLeft">
+					<div class="banner_choose">
+						<h3>We are leading consulting company<span><br> Choose your industry</span></h3>		
 					</div>
-					<nav class="menu">
-						<ul class="menu__list">
-							<li>
-								<a href="#" class="menu__link">
-									Homes
-								</a>
-							</li>
-							<li>
-								<a href="#" class="menu__link">
-									Pages
-								</a>
-							</li>
-							<li>
-								<a href="#" class="menu__link">
-									Featuers
-								</a>
-							</li>
-							<li>
-								<a href="#" class="menu__link">
-									Extensions
-								</a>
-							</li>
-							<li>
-								<a href="#" class="menu__link">
-									Tutorials
-								</a>
-							</li>
-							<li>
-								<a href="#" class="menu__link">
-									Contact Us
-								</a>
-							</li>
-						</ul>
-					</nav>
-					<div class="header__soc">
-						<i class="fab fa-facebook-f"></i>
-						<i class="fab fa-twitter"></i>
-						<i class="fab fa-skype"></i>
-						<i class="fab fa-linkedin-in"></i>
+					<div class="banner_eb">
+						<div class="banner_view">
+							<img src="img/icon_education.png">
+						    <div class="banner_flex">
+								<h3>education</h3>
+								<i style="padding-left: 48px;" class="fas fa-chevron-circle-right"></i>
+							</div>	
+						</div>
+						<div class="banner_view">
+							<img src="img/icon_business.png">
+						    <div class="banner_flex">
+								<h3>business</h3>
+								<i style="padding-left: 42px;" class="fas fa-chevron-circle-right"></i>
+							</div>	
+						</div>
 					</div>
-					<div class="burger_menu">
-						<span></span>
+					<div class="banner_eb">
+						<div class="banner_view">
+							<img src="img/icon_technology.png">
+						    <div class="banner_flex">
+								<h3>Technology</h3>
+								<i style="padding-left: 38px;" class="fas fa-chevron-circle-right"></i>
+							</div>	
+						</div>
+						<div class="banner_view">
+							<img src="img/icon_real_estate.png">
+						    <div class="banner_flex">
+								<h3>Real estate</h3>
+								<i style="padding-left: 30px;" class="fas fa-chevron-circle-right"></i>
+							</div>	
+						</div>
 					</div>
-				</div>
-			</div>
-			<nav class="nav__menu2">
-						<ul class="nav__list">
-							<li>
-								<a href="#" class="nav__link">Home</a>
-							</li>
-							<li>
-								<a href="#" class="nav__link">about us</a>
-							</li>
-							<li>
-								<a href="#" class="nav__link">industry</a>
-							</li>
-							<li>
-								<a href="#" class="nav__link">services</a>
-									</li>
-							<li>
-								<a href="#" class="nav__link">pages</a>
-									</li>
-							<li>
-								<a href="#" class="nav__link">contact us</a>
-							</li>
-						</ul>
-					</nav>
-		</div>
-		<div class="creat">
-			<div class="container">
-				<div class="creat__content">
-					<div class="creat_h">
-						Creatives
-					</div>
-					<div class="creat_p">
-						Power by PSDfreebies.com
-					</div>
-					<div class="creat__down">
-						Scroll Down
-					</div>
-					<div class="creat__arrow">
-						<i class="fas fa-chevron-down"></i>
+					<div class="banner_eb">
+						<div class="banner_view">
+							<img src="img/icon_banking.png">
+						    <div class="banner_flex">
+								<h3>Banking</h3>
+								<i style="padding-left: 60px;" class="fas fa-chevron-circle-right"></i>
+							</div>	
+						</div>
+						<div class="banner_view">
+							<button class="banner_btn">
+							view more
+						    </button>
+						</div>
 					</div>
 				</div>
-			</div>
-		</div>
-	</header>
-	<section class="we">
+				<div class="banner_content wow slideInLeft">
+					<div class="banner_choose">
+						<h3>We are leading consulting company<span><br> Choose your industry</span></h3>		
+					</div>
+					<div class="banner_eb">
+						<div class="banner_view">
+							<img src="img/icon_education.png">
+						    <div class="banner_flex">
+								<h3>education</h3>
+								<i style="padding-left: 48px;" class="fas fa-chevron-circle-right"></i>
+							</div>	
+						</div>
+						<div class="banner_view">
+							<img src="img/icon_business.png">
+						    <div class="banner_flex">
+								<h3>business</h3>
+								<i style="padding-left: 42px;" class="fas fa-chevron-circle-right"></i>
+							</div>	
+						</div>
+					</div>
+					<div class="banner_eb">
+						<div class="banner_view">
+							<img src="img/icon_technology.png">
+						    <div class="banner_flex">
+								<h3>Technology</h3>
+								<i style="padding-left: 38px;" class="fas fa-chevron-circle-right"></i>
+							</div>	
+						</div>
+						<div class="banner_view">
+							<img src="img/icon_real_estate.png">
+						    <div class="banner_flex">
+								<h3>Real estate</h3>
+								<i style="padding-left: 30px;" class="fas fa-chevron-circle-right"></i>
+							</div>	
+						</div>
+					</div>
+					<div class="banner_eb">
+						<div class="banner_view">
+							<img src="img/icon_banking.png">
+						    <div class="banner_flex">
+								<h3>Banking</h3>
+								<i style="padding-left: 60px;" class="fas fa-chevron-circle-right"></i>
+							</div>	
+						</div>
+						<div class="banner_view">
+							<button class="banner_btn">
+							view more
+						    </button>
+						</div>
+					</div>
+				</div>
+				<div class="banner_content wow slideInLeft">
+					<div class="banner_choose">
+						<h3>We are leading consulting company<span><br> Choose your industry</span></h3>		
+					</div>
+					<div class="banner_eb">
+						<div class="banner_view">
+							<img src="img/icon_education.png">
+						    <div class="banner_flex">
+								<h3>education</h3>
+								<i style="padding-left: 48px;" class="fas fa-chevron-circle-right"></i>
+							</div>	
+						</div>
+						<div class="banner_view">
+							<img src="img/icon_business.png">
+						    <div class="banner_flex">
+								<h3>business</h3>
+								<i style="padding-left: 42px;" class="fas fa-chevron-circle-right"></i>
+							</div>	
+						</div>
+					</div>
+					<div class="banner_eb">
+						<div class="banner_view">
+							<img src="img/icon_technology.png">
+						    <div class="banner_flex">
+								<h3>Technology</h3>
+								<i style="padding-left: 38px;" class="fas fa-chevron-circle-right"></i>
+							</div>	
+						</div>
+						<div class="banner_view">
+							<img src="img/icon_real_estate.png">
+						    <div class="banner_flex">
+								<h3>Real estate</h3>
+								<i style="padding-left: 30px;" class="fas fa-chevron-circle-right"></i>
+							</div>	
+						</div>
+					</div>
+					<div class="banner_eb">
+						<div class="banner_view">
+							<img src="img/icon_banking.png">
+						    <div class="banner_flex">
+								<h3>Banking</h3>
+								<i style="padding-left: 60px;" class="fas fa-chevron-circle-right"></i>
+							</div>	
+						</div>
+						<div class="banner_view">
+							<button class="banner_btn">
+							view more
+						    </button>
+						</div>
+					</div>
+				</div>
+				</div>
+		    </div>
+	</div>
+	<div class="about" id="about">
 		<div class="container">
-			<div class="we__top top__text">
-				We Are An Awesome Agency
-				<div class="we__opacity top__opacity">
-					W
+			<div class="about_content">
+				<div class="about_text">
+					<h3>What we are <br><span>About us</span></h3>
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled</p>
+					<button>Read More</button>
 				</div>
-			</div>
-			<div class="we__row">
-				<div class="we__content">
-					<div class="we__circle">
-						<a href="#"><img src="img/Write.png"></a>
-					</div>
-					<div class="we__h">
-						Feature one
-					</div>
-					<div class="we__p">
-						Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus
-					</div>
-				</div>
-				<div class="we__content">
-					<div class="we__circle">
-						<a href="#"><img src="img/Write.png"></a>
-					</div>
-					<div class="we__h">
-						Feature one
-					</div>
-					<div class="we__p">
-						Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus
-					</div>
-				</div>
-				<div class="we__content">
-					<div class="we__circle">
-						<a href="#"><img src="img/Search_(and_thou_shall_find).png"></a>
-					</div>
-					<div class="we__h">
-						Feature one
-					</div>
-					<div class="we__p">
-						Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus
-					</div>
-				</div>
-				<div class="we__content">
-					<div class="we__circle">
-						<a href="#"><img src="img/Simon_says.png"></a>
-					</div>
-					<div class="we__h">
-						Feature one
-					</div>
-					<div class="we__p">
-						Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus
+				<div class="about_img">
+					<img src="img/about_img.png">
+					<div class="banner_pos">
+								<img src="img/Badge_section.png">
 					</div>
 				</div>
 			</div>
 		</div>
-	</section>
-	<section class="dogg">
-		<div class="dog">
-			<div class="dog__content">
-				<div class="dog__container">
-					<div class="dog__body">
-						<div class="dog__data data__dog">
-							Jan 4, 2016   |   In Culture
-						</div>
-						<div class="dog__h h__dog">
-							Akita Inu Dog
-						</div>
-						<div class="dog__p p__dog">
-							Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed odio dui. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
-							<br>
-							<br>
-							Donec ullamcorper nulla non metus auctor fringilla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed posuere consectetur 
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="dog__image">
-				<img src="img/dog1.png">
-			</div>
-		</div>
-		<div class="dog">
-			<div class="dog__content2">
-				<div class="dog__container">
-					<div class="dog__body2">
-						<div class="dog__data2 data__dog">
-							Jan 4, 2016   |   In Culture
-						</div>
-						<div class="dog__h2 h__dog">
-							Akita Inu Dog
-						</div>
-						<div class="dog__p2 p__dog">
-							Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed odio dui. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
-							<br>
-							<br>
-							Donec ullamcorper nulla non metus auctor fringilla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed posuere consectetur 
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="dog__image2">
-				<img src="img/dog2.png">
-			</div>
-		</div>
-	</section>
-	<section class="blog">
+	</div>
+	<div class="steps" id="industry">
 		<div class="container">
-			<div class="blog__top top__text">
-				Let's blog
-				<div class="blog__opacity top__opacity">
-					B
-				</div>
+			<div class="our_steps">
+				<h3><span>Our</span><br> Steps</h3>
 			</div>
-			<div class="under__text">
-				We love clean design and advanced digital solutions.
-			</div>
-			<div class="blog__content">
-				<div class="blog__block">
-					<div class="blog__img">
-						<img src="img/blog1.png">
-					</div>
-					<div class="blog__h">
-						Fresh Summer Campaign
-					</div>
-					<div class="blog__p">
-						Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed odio dui. Vivamus sagittis lacus vel augue
-					</div>
+			<div class="steps_content">
+				<div class="steps_1">
+					<img src="img/steps_hand.png">
+				    <h2>01</h2>
+				    <h3>Choose your industry</h3>
+				    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry.</p>
 				</div>
-				<div class="blog__block">
-					<div class="blog__img">
-						<img src="img/blog2.png">
-					</div>
-					<div class="blog__h">
-						Fresh Summer Campaign
-					</div>
-					<div class="blog__p">
-						Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed odio dui. Vivamus sagittis lacus vel augue
-					</div>
+				<div class="steps_1">
+					<img src="img/steps_flag.png">
+				    <h2>02</h2>
+				    <h3>Choose your industry</h3>
+				    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry.</p>
 				</div>
-				<div class="blog__block">
-					<div class="blog__img">
-						<img src="img/blog3.png">
-					</div>
-					<div class="blog__h">
-						Fresh Summer Campaign
-					</div>
-					<div class="blog__p">
-						Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed odio dui. Vivamus sagittis lacus vel augue
-					</div>
-				</div>
-				<div class="blog__block">
-					<div class="blog__img">
-						<img src="img/blog4.png">
-					</div>
-					<div class="blog__h">
-						Fresh Summer Campaign
-					</div>
-					<div class="blog__p">
-						Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed odio dui. Vivamus sagittis lacus vel augue
-					</div>
+				<div class="steps_1">
+					<img src="img/steps_rocket.png">
+				    <h2>03</h2>
+				    <h3>Choose your industry</h3>
+				    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry.</p>
 				</div>
 			</div>
 		</div>
-	</section>
-	<section class="copy">
+	</div>
+	<div class="projects" id="services">
+       <div class="container">
+       	  	<!-- <a class="link-test">
+            <div class="img-test"></div>
+            <h3 class="txt-test">Test</h3>
+            <h3 class="txt-test-show">Test 2</h3>
+            </a>
+           </div> -->
+            <div class="featured_pro">
+				<h3>Featured<br><span>Projects</span></h3>
+			</div>
+			<div class="projects_content">
+				<div class="projects_banking">
+					<div class="banking_block">
+						<button class="banking_btn">
+							Banking
+						</button>
+						<div class="banking_shape">
+							<i class="fas fa-plus"></i>
+						</div>
+					</div>
+					<div class="banking_hover">
+						<div class="banking_text">
+							<h3 class="banking_h3">Project Banking</h3>
+						    <p class="banking_p">Lorem Ipsum is simply dummy text of the printing and... typesetting industry. Lorem Ipsum has been the industry.</p>
+						</div>
+						<div class="banking_shape2">
+							<i class="fas fa-plus"></i>
+						</div>
+					</div>
+				</div>
+                <div class="project_second">
+                <div class="project_third">
+				<div class="projects_heading">
+					<div class="heading_block">
+						<button class="heading_btn">
+							Banking
+						</button>
+						<div class="heading_shape">
+							<i class="fas fa-plus"></i>
+						</div>
+					</div>
+					<div class="heading_hover">
+						<div class="heading_text">
+							<h3 class="heading_h3">Project Banking</h3>
+						    <p class="heading_p">Lorem Ipsum is simply dummy text of the printing and...</p>
+						</div>
+						<div class="heading_shape2">
+							<i class="fas fa-plus"></i>
+						</div>
+					</div>
+				</div>
+
+				<div class="projects_heading">
+					<div class="heading_block">
+						<button class="heading_btn">
+							Technology
+						</button>
+						<div class="heading_shape">
+							<i class="fas fa-plus"></i>
+						</div>
+					</div>
+					<div class="heading_hover">
+						<div class="heading_text">
+							<h3 class="heading_h3">Project Technology</h3>
+						    <p class="heading_p">Lorem Ipsum is simply dummy text of the printing and...</p>
+						</div>
+						<div class="heading_shape2">
+							<i class="fas fa-plus"></i>
+						</div>
+					</div>
+				</div>
+				</div>
+                
+					<div class="project_real">
+					   <div class="real_block">
+					   	<button class="real_btn">
+					   		Real estate
+					   	</button>
+					   	<div class="real_shape">
+					   		<i class="fas fa-plus"></i>
+					   	</div>
+					   </div>
+					   <div class="real_hover">
+					   	<div class="real_text">
+					   		<h3 class="real_h3">Project Real estate</h3>
+						    <p class="real_p">Lorem Ipsum is simply dummy text of the printing and...</p>
+					   	</div>
+					   	<div class="real_shape2">
+					   		<i class="fas fa-plus"></i>
+					   	</div>
+					   </div>
+				    </div>
+				</div>
+			</div>
+			<div class="projects_btn">
+				<button class="mainBtn">
+				   Full Projects
+			    </button>
+			</div>
+       	</div>
+    </div>
+	<div class="clients">
 		<div class="container">
-			<div class="copy__content">
-				<div class="copy__block">
-					<div class="copy__img">
-						<img src="img/Write_copy_2.png">
-					</div>
-					<div class="copy__p">
-						Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed odio dui. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
-					</div>
+			<div class="happy_clients">
+				<h3>Happy CLients <br><span>Testimonials</span></h3>
+			</div>
+			<div class="clients_content active">
+				<div class="clients_slider">
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specibook. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially.</p>
+                </div>
+
+                <div class="clients_slider">
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specibook. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially.</p>
+                </div>
+
+                <div class="clients_slider">
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specibook. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially.</p>
+                </div>
+			</div>
+
+			<div class="clients_content2">
+				<div class="client1">
+					<img src="img/clients_mujik_ojko.png">
+					<h3>Client Name<br><span>Designation</span></h3>
 				</div>
-				<div class="copy__block">
-					<div class="copy__img">
-						<img src="img/Write_copy_2.png">
-					</div>
-					<div class="copy__p">
-						Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed odio dui. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
-					</div>
+				<div class="client1">
+					<img src="img/clients_devojka_inidia.png">
+					<h3>Client Name<br><span>Designation</span></h3>
+				</div>
+				<div class="client1">
+					<img src="img/clients_devojka_asia.png">
+					<h3>Client Name<br><span>Designation</span></h3>
 				</div>
 			</div>
 		</div>
-	</section>
-	<section class="phone">
+	</div>
+	<div class="blog"  id="pages">
+		<div class="flex_blog">
 		<div class="container">
-			<div class="phone__content">
-				<div class="phone__block">
-					<div class="phone__h h__dog">
-						Akita Inu Dog
-					</div>
-					<div class="phone__p p__dog">
-						Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed odio dui. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
-					</div>
-					<div class="phone__line1 line__phone">
-						Fully Responsive Design
-					</div>
-					<div class="phone__line2 line__phone">
-						High Quality Code
-					</div>
-					<div class="phone__line3 line__phone">
-						Different Headers & Layout
-					</div>
-				</div>
-				<div class="phone__phone">
-					<img src="img/Rectangle_1_copy.png">
-				</div>
+			<div class="all_blog">
+			<div class="our_blog">
+				<h3>News<br><span>Our Blog</span></h3>
+		        <div class="btn_blog">
+		    	    <button class="btn_blog1">
+					    Top posts
+				    </button>
+				    <button class="btn_blog2">
+					    Check all post
+				    </button> 
+			    </div>
 			</div>
+			<div class="blog_feb">
+				<h4>February <span>20, 2016</span></h4>
+				<h3>Blog Heading here Business</h3>
+				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry...</p>
+			</div>
+			<div class="blog_feb2">
+				<h4>February <span>22, 2016</span></h4>
+				<h3>many variations of passages of Ipsum</h3>
+				<p>Established fact that a reader will be distracted by the readableof a page when looking at its layout. The point of using Lorem...</p>
+			</div>
+			<div class="blog_feb3">
+				<h4>February <span>25, 2016</span></h4>
+				<h3>Internet tend to repeat predefined</h3>
+				<p>Popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages...</p>
+			</div>
+		    </div>
 		</div>
-	</section>
-	<section class="team">
+		<div class="blog_img">
+			<img src="img/blog_img.png">
+		</div>
+		</div>
+	</div>
+	<div class="contact" id="contactUs">
 		<div class="container">
-			<div class="team__top top__text">
-				Our Team
-				<div class="team__opacity top__opacity">
-					T
-				</div>
+			<div class="contact_us">
+				<h3>for Consulting<br><span>Contact us</span></h3>
 			</div>
-			<div class="under__text">
-				sales long tail influencer pitch release niche market.
-			</div>
-			<div class="team__content">
-				<div class="team__block">
-					<div class="team__image">
-						<img src="img/team1.png">
+			<div class="contact_flex">
+				<div class="contact_border">			
+					<div class="contact_img">
+						<img src="img/icon_email.png">
 					</div>
-					<div class="team__box">
-						<div class="team__h">
-							JOHN SNOW
-						</div>
-						<div class="team__p">
-							CEO
-						</div>
-					</div>
+					<div class="contact_text">
+					   <h3>Email</h3>
+				       <p>info@consultplus.com</p>
+				   </div>
 				</div>
-				<div class="team__block">
-					<div class="team__image">
-						<img src="img/team2.png">
+
+				<div class="contact_border">			
+					<div class="contact_img">
+						<img src="img/icon_call.png">
 					</div>
-					<div class="team__box">
-						<div class="team__h">
-							JOHN SNOW
-						</div>
-						<div class="team__p">
-							WebDesigner
-						</div>
-					</div>
+					<div class="contact_text">
+					   <h3>Call Us</h3>
+				       <p>+91 8879 8767 990</p>
+				   </div>
 				</div>
-				<div class="team__block">
-					<div class="team__image">
-						<img src="img/team3.png">
+
+				<div class="contact_border">			
+					<div class="contact_img">
+						<img src="img/icon_career.png">
 					</div>
-					<div class="team__box">
-						<div class="team__h">
-							DAVID SMITH
-						</div>
-						<div class="team__p">
-							Photographer
-						</div>
-					</div>
-				</div>
-				<div class="team__block">
-					<div class="team__image">
-						<img src="img/team4.png">
-					</div>
-					<div class="team__box">
-						<div class="team__h">
-							LADY SANSA
-						</div>
-						<div class="team__p">
-							Photographer
-						</div>
-					</div>
-				</div>
+					<div class="contact_text">
+					   <h3>Career</h3>
+				       <p>consult@career.com</p>
+				   </div>
+				</div>	
 			</div>
 		</div>
-	</section>
-	<script src="js/jquerry.min.js"></script>
-	<script src="js/main.js"></script>
+	</div>
+	<div class="footer">
+		<div class="container">
+			<div class="footer_content">
+				<div class="footer_news">
+					<h3 class="footer_h3">News letter</h3>
+					<p>Enter your email address to subscribe our notification of our new post & features by email.</p>
+					<div class="footer_btn">
+						<input type="emal" placeholder="          Email Address">
+					    <button>Subscribe</button>
+					</div>
+				</div>
+				<div class="footer_navigation">
+					<h3 class="footer_h3">
+						navigation
+					</h3>
+					<div class="footer_nav">
+						<h4>Home</h4>
+					    <h4>about us</h4> 
+					    <h4>industry</h4> 
+					    <h4>services</h4> 
+					    <h4>pages</h4> 
+					    <h4>Contact us</h4> 
+					</div>
+				</div>
+				<div class="footer_navigation">
+					<h3 class="footer_h3">
+						Industary
+					</h3>
+					<div class="footer_nav">
+						<h4>Education</h4>
+					    <h4>business</h4> 
+					    <h4>realestate</h4> 
+					    <h4>technology</h4> 
+					    <h4>banking</h4> 
+					    <h4>telicommunication</h4> 
+					    <h4>much more</h4> 
+					</div>
+				</div>
+				<div class="footer_navigation">
+					<h3 class="footer_h3">
+						Follow us
+					</h3>
+					<div class="footer_nav">
+						<h4>Facebook</h4>
+					    <h4>twitter</h4> 
+					    <h4>instagram</h4> 
+					    <h4>linkedin</h4> 
+					    <h4>google +</h4> 
+					</div>
+				</div>
+			</div>
+			<div class="corpyright">
+				<p class="cor_p">Copyright © 2016 Consultplus theme.</p>
+			</div>
+		</div>
+	</div>
+	<script src="wow.min.js"></script>
+	<script src="jquerry.min.js"></script>
+	<script src="slick.min.js"></script>
+	<script src="on.js"></script>
+              <script>
+              new WOW().init();
+              </script>
 </body>
 </html>
